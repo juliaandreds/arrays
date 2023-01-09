@@ -7,8 +7,11 @@ function exibeAluno (aluno) {
     if (listaAlunosENotas[0].includes(aluno)) {
         console.log (`${aluno} já está cadastrado(a)!`);
 
-        const [alunos,notas] = listaAlunosENotas;
+       /*  const alunos = listaAlunosENotas [0];
+        const notas = listaAlunosENotas [1]; */
+        //desestruturando uma lista
 
+        const [alunos,notas] = listaAlunosENotas
 
         const indice = alunos.indexOf(aluno);
         //console.log (indice);
