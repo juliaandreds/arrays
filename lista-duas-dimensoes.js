@@ -6,3 +6,5 @@ listaAlunosENotas = [alunos,notas];
 console.log (`A/O aluna(o) da posição 1 alunos é:  ${listaAlunosENotas [0][2]} 
 A nota dessa/e aluno é:  ${listaAlunosENotas [1][2]}`);
 
+
+
